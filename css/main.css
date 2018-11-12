@@ -75,6 +75,22 @@ nav a:hover {
   }
 }
 
+header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+}
+
+h1,
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 90em) {
   html {
     font-size: 130%;
